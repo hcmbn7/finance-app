@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Account, Category, ImportBatch, Institution, Transaction
+
+admin.site.register(Institution)
+admin.site.register(Account)
+admin.site.register(Category)
+admin.site.register(ImportBatch)
+admin.site.register(Transaction)
